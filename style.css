@@ -7,7 +7,7 @@
 }
 
 /* Individual Cat breed cards */
-.cat-breed {
+.cat-card {
     flex: 1 1 300px;
     margin: 1em;
     padding: 1em;
@@ -19,34 +19,35 @@
 }
 
 /* Images inside cat breed cards */
-.cat-breed img {
+.cat-card img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
 /* Headings inside cat breed cards */
-
-.cat-breed h3 {
+.cat-card h3 {
     margin: 0.5em 0;
 }
 
 /* Paragraphs inside cat breed cards */
-.cat-breed p {
+.cat-card p {
     margin: 0.5em 0 1em;
 }
-/* Hover effect for cat breed cards */
-.cat-breed:hover {
+
+/* Hover effect */
+.cat-card:hover {
     transform: scale(1.05);
 }
 
-/* Media queries for smaller screens */
-@media (max-width: 600px) {
+/* Media queries */
+@media (max-width: 768px) {
     .cat-container {
         flex-direction: column;
         align-items: center;
     }
-    .cat-breed {
+
+    .cat-card {
         flex: 1 1 100%;
         max-width: 100%;
     }
